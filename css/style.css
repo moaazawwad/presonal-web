@@ -1,0 +1,152 @@
+
+.home{
+
+background-image: url(../pics/intro-bg.jpg);
+background-size: cover;
+}
+
+.navbar li
+{
+    padding-left: 10px;
+    font-weight: 650;
+}
+
+.home-contant h2{
+    width:80% ;
+    font-size: 70px;
+}
+
+.zindex9{
+    z-index: 99999999999999999;
+}
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+.box{
+    width: 30%;
+
+}
+
+.line-nav{
+    position: relative;
+}
+.line-nav::after{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+
+    top: 40px;
+    left: 8px;
+    height: 3px;
+    width: 0px;
+    transition: width 1s;
+}
+.nav-link:hover::after{
+    width: 45px;
+
+    
+}
+
+.smallLine::after{
+    content: "";
+    background-color: #0078ff;
+    position: absolute;
+
+    top: 40px;
+    left: 0px;
+    height: 5px;
+    width: 110px;
+}
+
+.linserv{
+    position: relative;
+}
+.linserv::after{
+    content: "";
+    background-color: #0078ff;
+    position: absolute;
+
+    top: 55px;
+    left: 48%;
+    height: 5px;
+    width: 50px;
+}
+.tallline::after{
+    content: "";
+    background-color: #0078ff;
+    position: absolute;
+
+    top: 50px;
+    left: 0px;
+    height: 5px;
+    width: 110px;
+
+}
+.statistics{
+    background-image: url(../pics/post-3.jpg);
+}
+.member{
+    padding: 150px 60px;
+    z-index: 22222;
+}
+
+.xavi-alonso{
+    background-image: url(../pics/z.jpg);
+    background-size: contain;
+
+}
+.zindex{
+    z-index: 5555555;
+}
+
+.progress{
+    width: 400px;
+}
+.padinf-p p{
+padding-left: 17px;
+}
+
+.form{
+    width: 500px;
+
+}
+.mes{
+    height: 100px;
+  padding-bottom: 70px;
+}
+.sendbut{
+    left: 30%;
+}
+.zoom{
+    transition: transform .5s;
+}
+.layer {
+    background-color: rgba(0, 106, 228, 0.7);
+    width: 100%
+}
+
+.zoom:hover{
+    transform: scale(1.1)
+}
+.row{
+    padding: 0%;
+}
+.blie-button{
+background-color: #0078ff;
+top: -15;
+left: 40%;
+width: 70px;
+height: 30px;
+}
+.bac{
+    background-color: #1a73dab1;
+}
+.font14{
+    font-size: 13;
+}
